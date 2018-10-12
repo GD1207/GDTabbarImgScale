@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DF7FE2E216F24730055CB4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE2D216F24730055CB4F /* AppDelegate.swift */; };
+		3DF7FE2E216F24730055CB4F /* GDAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE2D216F24730055CB4F /* GDAppDelegate.swift */; };
 		3DF7FE35216F24890055CB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF7FE34216F24890055CB4F /* Assets.xcassets */; };
 		3DF7FE38216F24890055CB4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF7FE36216F24890055CB4F /* LaunchScreen.storyboard */; };
 		3DF7FE43216F24890055CB4F /* GDTabbarImgScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE42216F24890055CB4F /* GDTabbarImgScaleTests.swift */; };
 		3DF7FE4E216F24890055CB4F /* GDTabbarImgScaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE4D216F24890055CB4F /* GDTabbarImgScaleUITests.swift */; };
+		3DF7FE5C216F25500055CB4F /* GDTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE5B216F25500055CB4F /* GDTabbarViewController.swift */; };
+		3DF7FE5E216F255D0055CB4F /* GDTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE5D216F255D0055CB4F /* GDTabbar.swift */; };
+		3DF7FE61216F25860055CB4F /* GDHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE60216F25860055CB4F /* GDHomeViewController.swift */; };
+		3DF7FE63216F25910055CB4F /* GDMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE62216F25910055CB4F /* GDMoreViewController.swift */; };
+		3DF7FE65216F25A00055CB4F /* GDMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE64216F25A00055CB4F /* GDMineViewController.swift */; };
+		3DF7FE67216F265D0055CB4F /* GDNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF7FE66216F265D0055CB4F /* GDNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		3DF7FE2A216F24730055CB4F /* GDTabbarImgScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDTabbarImgScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DF7FE2D216F24730055CB4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DF7FE2D216F24730055CB4F /* GDAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDAppDelegate.swift; sourceTree = "<group>"; };
 		3DF7FE34216F24890055CB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF7FE37216F24890055CB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DF7FE39216F24890055CB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +49,12 @@
 		3DF7FE49216F24890055CB4F /* GDTabbarImgScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDTabbarImgScaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF7FE4D216F24890055CB4F /* GDTabbarImgScaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDTabbarImgScaleUITests.swift; sourceTree = "<group>"; };
 		3DF7FE4F216F24890055CB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF7FE5B216F25500055CB4F /* GDTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDTabbarViewController.swift; sourceTree = "<group>"; };
+		3DF7FE5D216F255D0055CB4F /* GDTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDTabbar.swift; sourceTree = "<group>"; };
+		3DF7FE60216F25860055CB4F /* GDHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDHomeViewController.swift; sourceTree = "<group>"; };
+		3DF7FE62216F25910055CB4F /* GDMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDMoreViewController.swift; sourceTree = "<group>"; };
+		3DF7FE64216F25A00055CB4F /* GDMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDMineViewController.swift; sourceTree = "<group>"; };
+		3DF7FE66216F265D0055CB4F /* GDNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +105,11 @@
 		3DF7FE2C216F24730055CB4F /* GDTabbarImgScale */ = {
 			isa = PBXGroup;
 			children = (
-				3DF7FE2D216F24730055CB4F /* AppDelegate.swift */,
+				3DF7FE5F216F25660055CB4F /* Tabbar */,
+				3DF7FE2D216F24730055CB4F /* GDAppDelegate.swift */,
+				3DF7FE60216F25860055CB4F /* GDHomeViewController.swift */,
+				3DF7FE62216F25910055CB4F /* GDMoreViewController.swift */,
+				3DF7FE64216F25A00055CB4F /* GDMineViewController.swift */,
 				3DF7FE34216F24890055CB4F /* Assets.xcassets */,
 				3DF7FE36216F24890055CB4F /* LaunchScreen.storyboard */,
 				3DF7FE39216F24890055CB4F /* Info.plist */,
@@ -117,6 +133,16 @@
 				3DF7FE4F216F24890055CB4F /* Info.plist */,
 			);
 			path = GDTabbarImgScaleUITests;
+			sourceTree = "<group>";
+		};
+		3DF7FE5F216F25660055CB4F /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				3DF7FE5B216F25500055CB4F /* GDTabbarViewController.swift */,
+				3DF7FE5D216F255D0055CB4F /* GDTabbar.swift */,
+				3DF7FE66216F265D0055CB4F /* GDNavigationViewController.swift */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF7FE2E216F24730055CB4F /* AppDelegate.swift in Sources */,
+				3DF7FE61216F25860055CB4F /* GDHomeViewController.swift in Sources */,
+				3DF7FE67216F265D0055CB4F /* GDNavigationViewController.swift in Sources */,
+				3DF7FE63216F25910055CB4F /* GDMoreViewController.swift in Sources */,
+				3DF7FE65216F25A00055CB4F /* GDMineViewController.swift in Sources */,
+				3DF7FE2E216F24730055CB4F /* GDAppDelegate.swift in Sources */,
+				3DF7FE5E216F255D0055CB4F /* GDTabbar.swift in Sources */,
+				3DF7FE5C216F25500055CB4F /* GDTabbarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26KW7U5BLP;
 				INFOPLIST_FILE = GDTabbarImgScale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26KW7U5BLP;
 				INFOPLIST_FILE = GDTabbarImgScale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
